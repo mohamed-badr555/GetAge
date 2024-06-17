@@ -47,10 +47,14 @@ h1{
     max-width: 600px;
 }
     h1{
-        line-height: 50px;
-        font-weight: 500;
+        line-height: 40px;
+        font-weight: 400;
         font-size: 25px;
     }  
+    .calc
+    {
+        padding: 15px 20px;
+    }
     .ma
     {
         margin-bottom: 15px;
@@ -61,16 +65,19 @@ h1{
     }
 }
 
-@media screen and (max-width:576px) {
-    .content
-{
- 
-    max-width: 100%;
-}
+@media screen and (max-width:552px) {
     h1{
-        line-height: 40px;
+        line-height: 30px;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 18px;
     }  
-  
+    .calc
+    {
+        padding: 15px ;
+    }
+   
+    .message
+    {
+        font-size: 13px !important;
+    }   
 }
