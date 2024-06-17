@@ -60,3 +60,17 @@ h1{
         font-size: 15px !important;
     }
 }
+
+@media screen and (max-width:576px) {
+    .content
+{
+ 
+    max-width: 100%;
+}
+    h1{
+        line-height: 40px;
+        font-weight: 400;
+        font-size: 15px;
+    }  
+  
+}
