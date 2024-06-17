@@ -43,7 +43,7 @@ h1{
 @media screen and (max-width:768px) {
     .content
 {
- 
+
     max-width: 600px;
 }
     h1{
@@ -66,6 +66,12 @@ h1{
 }
 
 @media screen and (max-width:552px) {
+       .content
+    {
+     
+        max-width: 100%;
+        padding: 100px;
+    }
     h1{
         line-height: 30px;
         font-weight: 400;
